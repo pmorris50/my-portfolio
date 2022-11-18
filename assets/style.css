@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 body{
     
-    flex-direction: column;
+  
     line-height: 1.3;
     width: 100%;
 }
@@ -25,14 +25,28 @@ body{
 .navbar{
 flex: content;
 border: 2px black solid;
+max-width: 50%;
 }
 .navbar ul{
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-around;
     align-items: center;
+    
 }
+
+    
+
+@media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      align-items: center;
+    }
+ 
+    
 
  /*
 .header{
