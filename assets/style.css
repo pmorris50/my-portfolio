@@ -1,0 +1,137 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    
+    flex-direction: column;
+    line-height: 1.3;
+    width: 100%;
+}
+.header{
+    background-color: beige;
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    padding: 0 1rem;
+    flex: content;
+    
+
+}
+.header h1{
+    margin: 0;
+}
+.navbar{
+flex: content;
+border: 2px black solid;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+ /*
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: beige;
+width: 100%;
+}
+
+.header h1{
+    font-size: 175%;
+    border: 2px red solid;
+    margin-right: 60%;
+    margin-bottom: 5%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 2px blue solid;
+    padding: 3%;
+    padding-left: 20%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: 2px lightblue solid;
+}
+.navbar ul li{
+    border: 2px red solid;
+    justify-content: space-around; */
+    
+
+
+/* }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border: 2px red solid;
+    position: fixed;
+    width: 100%;
+}
+.header h1{
+    display:flex;
+    margin-right: 50vw;
+    text-align: start;
+    width: 22%;
+    font-size: 200%;
+    margin-bottom: 8%;
+    border: 2px red solid;
+}
+.header h2{
+    border: 2px red solid;
+    font-size:larger;
+    justify-content: flex-start;
+    
+}
+.navbar{
+    display: flex;
+    border: 2px red solid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-size: x-large;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.navbar ul{
+display: flex;
+border: 2px red solid;
+justify-content:flex-end;
+
+
+
+}
+.navbar  ul li{
+    list-style: none;
+    padding-right:10%;
+   
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+@media only screen and (min-width: 768px) {
+    .navbar{
+        
+        flex-wrap: wrap;
+        
+        } */
+}
+/* @media only screen and (max-width: 768px){
+    .navbar{
+        background-color: red;
+        flex-direction: column;
+    }
+} */
