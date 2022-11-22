@@ -5,29 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./assets/reset.css"> -->
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Patrick's Portfolio</title>
 </head>
 
 <body>
     <header class="header">
+        
         <h1>Patrick Morris</h1>
-        <button href="#">Contact Me</button>
-        <!-- <img class= "profile-pic" src="./assets/images/profile.jpg" alt="profile picture" width="5%"> -->
+        <h1>Portfolio</h1>
+        <img class= "profile-pic" src="./assets/images/profile.jpg" alt="profile picture" width="5%">
+    </header>
+
         
     <nav class="navbar">
-            <ul class="nav-links">
-                <li> <a href="#"> Personal</a></li>
-                <li><a href="#"> Projects</a></li>
-                <li><a href ="#">Resume</a></li>
+            <!-- <ul class="nav-links"> -->
+            <section class= "nav-links">
+                 <a href= "mailto: patrickmorris532@gmail.com">Email</a>
+                <a href="#"> Personal</a>
+                <a href="#"> Projects</a>
+                <a href ="./assets/Resume.pdf" target="_blank">Resume</a>
+            </section>
 
 
 
             </ul>
     </nav>
-    </header>
     <br>
+
+<main>
+    <section class="container">
+
+        <figure class="container personal">
+        <section class= "personal-life">
+          <h3>Personal Life</h3>
+          <p>Originaly from Texas, I have found my home in Colorado after being transported here via a short stint with the Denver Broncos as a NFL player. My wife and I absolutely love the mountains and all the activities that come with them. We are childless but have one dog, Regi. </p>
+        </section>
+        <section class = "hobbies">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Mountian Biking</li>
+            <li>Fly Fishing</li>
+            <li>Camping</li>
+          </ul> 
+        </section>
+       
+
+        </figure>
+    </section>
+    <section class="container">
+        <h2>My Projects (coming soon)</h2>
+
+
+        
+        <figure class="container Projects">
+            
+
+        </figure>
+
+    </section>
+
+
+
+
+
+
+
+</main>
+<footer>
+    <form class="contact-form">
+        <h2>Send me and email</h2>
+        <form action="mailto:patrickmorris532@gmail.com" method="get" enctype="text/plain">
+            <div class="form-name">
+                <label for ="name"> Name: 
+                    <br>
+                    <input type="text" name="name" id="name">
+            </div>
+            <div form="form-company">
+                <label for="company"> Company: 
+                    <br>
+                    <input type="text" name ="company" id="company">
+                </label>
+            </div>
+            <div class="form-email">
+                <label for="email"> Email: 
+                    <br>
+                    <input type="email" name="email" id="email">
+                 </label>
+            </div>
+            <div>
+                <label form="comment"> Comment:
+                    <br>
+                    <input type="text" name="comment">
+                </label> 
+
+            </div>
+        </form>
+
+    </form>
+</footer>
 </body>
 
 </html>
