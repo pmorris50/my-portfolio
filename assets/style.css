@@ -1,16 +1,17 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
---lucky: #BBa01d;
---chromewhite: #e0f1d3;
---RaginBeige: #fff5d7;
---CoralPink: #ff5e6c;
---SleuthYellow: #feb300;
---PinkLeaf: #ffaaab;
---BabyBlue: #cceeff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --lucky: #BBa01d;
+    --chromewhite: #e0f1d3;
+    --RaginBeige: #fff5d7;
+    --CoralPink: #ff5e6c;
+    --SleuthYellow: #feb300;
+    --PinkLeaf: #ffaaab;
+    --BabyBlue: #cceeff;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     line-height: 1.3;
@@ -18,147 +19,190 @@ body{
     background-color: var(--RaginBeige);
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     background-color: var(--PinkLeaf);
     background-size: cover;
     align-items: center;
-  
+
 
 
 }
-.header h1{
+.header h1 {
     font-size: 200%;
     flex-shrink: 2;
 
-    
+
 }
-.profile-pic{
+
+.profile-pic {
     flex-shrink: 2;
     width: 7%;
 }
-.navbar{
+
+.navbar {
     font-size: 140%;
     display: flex;
     /* border: 2px black solid; */
     background-color: var(--BabyBlue);
     justify-content: center;
-    
+
 
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     /* border: 2px black solid; */
     justify-content: space-between;
     width: 50%;
     text-align: center;
-    
+
 
 }
 
 
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
     color: black;
-    
+
 }
-.nav-links a :hover {
-    background-color: black;
-}
-a:hover{
+
+/* .nav-links a :hover {
+    background-color: black; */
+
+
+.nav-links a:hover {
     background-color: var(--PinkLeaf);
     color: var(--BabyBlue);
     border: 1px black solid;
     border-radius: 10px;
 }
-.container{
-    border: 2px black solid;
+
+.container {
+    /* border: 2px black solid; */
+    text-align:center;
 
 }
-.container h2{
+
+.container h2 {
     text-align: center;
     padding: 3%;
     margin-bottom: 3%;
     font-size: 200%;
 }
-.personal{
-    border: 2px blue solid;
+.container h3{
+    font-size: 150%;
 }
-.project-1{
+
+.container a{
+    
+    text-decoration: none;
+   
+}
+
+
+.container a:hover{
+    transform-origin: center;
+    color: var(--CoralPink);
+    size: 150%;
+   }
+.container a:hover ::after{
+    content: "🚲 🐟 ⛺" ;
+}
+
+
+.project-1 {
     text-align: center;
+    /* border: 2px solid black; */
 }
-.project-container{
-    border: 2px solid black;
+
+.project-container {
+    /* border: 2px solid black; */
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
 }
-.project2-5{
-    border: 2px black solid;
+
+.project2-5 {
+    /* border: 2px black solid; */
 }
-/* .form-container{
+
+.form-container {
     background-color: var(--BabyBlue);
     margin: 0 auto;
-    border: 2px black dotted;
-    display:flex;
+    /* border: 2px black dotted; */
+    display: flex;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
     left: 0;
     bottom: 0;
-    padding: 2%; */
-
-.form-container{
-    display: flex;
-    flex-direction:row;
-    margin: 0 auto;
-
-    
-}
-.user-input{
-    margin-right: 500px;
-}
-.form-container h2{
-    margin-right: 5%;
-    display: inline;
-}
-.submit{ 
-    /* margin-left: 200%; */
+    padding: 2%;
+    text-align: center; 
+   
 }
 
-@media screen and (max-width: 960px){
-.profile-pic{
-    width: 17.5%;
+.user-input h2{
+    text-align: center;
 }
-.header h1{
-    font-size:225%;
+footer form{
+    width: 100%;
 }
-.contact-form{
-    display:flex;
-    flex-direction: column;
-}
-}
-
-@media screen and (max-width: 768px){
-.header{
-    display: flex;
-    flex-direction: column;}
-
-.nav-links{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-
-}
-.profile-pic{
-width: 17.5%;
-}
-
+label{
+    width: 25%;
 }
 
 
+  
+    @media screen and (max-width: 960px) {
+        .profile-pic {
+            width: 17.5%;
+        }
 
+        .header h1 {
+            font-size: 225%;
+        }
 
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-element{
+            display:flex;
+            justify-content: center;
+        }
+        .container{
+            font-size:150%;
+        }
+    }
 
+    @media screen and (max-width: 768px) {
+        .header {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .profile-pic {
+            width: 17.5%;
+        }
+        .form-element{
+            display:flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (min-width: 960px){ 
+        
+        .user-input{
+        display: flex;
+    }
+
+    }

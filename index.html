@@ -22,10 +22,10 @@
     <nav class="navbar">
         <section class="nav-links">
             <a href="mailto: patrickmorris532@gmail.com">Email</a>
-            <a href="#personal"> Personal</a>
+            <a href="#life"> Personal</a>
             <a href="#"> Projects</a>
             <a href="./assets/Resume.pdf" target="_blank">Resume</a>
-            <a href=#footer> Contact</a>
+            <a href="#footer"> Contact</a>
         </section>
 
 
@@ -38,7 +38,7 @@
         <section class="container">
 
             <figure class=personal>
-                <section class="personal-life">
+                <section class="personal-life" id= life>
                     <h3>Personal Life</h3>
                     <p>Originaly from Texas, I have found my home in Colorado after being transported here via a short
                         stint with the Denver Broncos as a NFL player. My wife and I absolutely love the mountains and
@@ -66,30 +66,30 @@
                 </a>
             </div>
             <figure class="project-container">
-                <div class = "project2-5">
+                <div class="project2-5">
                     <a target="_blank" href="#">
                         <h3>Project 2</h3>
                         <img class="project-image" src=https://via.placeholder.com/150 alt="project 2">
                     </a>
                 </div>
-                <div class = "project2-5">
+                <div class="project2-5">
                     <a target="-blank" href="#">
                         <h3>Project 3</h3>
                         <img class="project-image" src=https://via.placeholder.com/150 alt="project 3">
                     </a>
                 </div>
-                <div class = "project2-5">
+                <div class="project2-5">
                     <a target="-blank" href="#">
-                    <h3>Project 4</h3>
-                    <img class="project-image" src=https://via.placeholder.com/150 alt="project 4">
+                        <h3>Project 4</h3>
+                        <img class="project-image" src=https://via.placeholder.com/150 alt="project 4">
                     </a>
                 </div>
-                    <div class = "project2-5">
-                        <a target="-blank" href="#">
+                <div class="project2-5">
+                    <a target="-blank" href="#">
                         <h3>Project 5</h3>
                         <img class="project-image" src=https://via.placeholder.com/150 alt="project 5">
-                   </a>
-                    </div>
+                    </a>
+                </div>
 
 
             </figure>
@@ -102,34 +102,41 @@
 
 
     </main>
-    <footer class="form-container">
+    <footer class="form-container" id="footer">
 
-        <h2>Contact Info</h2>
-        <form action="mailto:patrickmorris532@gmail.com" method="get" enctype="text/plain">
+
+        <form action="#" method="get" enctype="text/plain">
             <div class=user-input>
-                <label for="name"> Name:
+                <h2>Contact Info</h2>
+                <div class="form-element">
+                    <label for="name"> Name:
 
-                    <input type="text" name="name" id="name">
-
+                        <input class="input-box" type="text" name="name" id="name">
+                    </label>
+                </div>
+                <div class="form-element">
                     <label for="company"> Company:
 
-                        <input type="text" name="company" id="company">
+                        <input class="input-box" type="text" name="company" id="company">
                     </label>
-
+                </div>
+                <div class="form-element">
                     <label for="email"> Email:
 
-                        <input type="email" name="email" id="email">
+                        <input class="input-box" type="email" name="email" id="email">
                     </label>
-
+                </div>
+                <div class="form-element">
                     <label for="phone-number"> Phone:
 
-                        <input type="text" name="phone" id="phone">
+                        <input class="input-box" type="text" name="phone" id="phone">
                     </label>
+                </div>
+                <label>
+                    <input type="submit" value="Send Request" />
 
+                </label>
             </div>
-            <input type="submit" value="Send Request" />
-
-
         </form>
 
 
@@ -137,10 +144,3 @@
 </body>
 
 </html>
-<!-- <main class=content> -->
-<!-- <h2 id="about me"> -->
-<!-- About Me -->
-<!-- </h2> -->
-
-
-<!-- </main> -->
