@@ -10,6 +10,11 @@
 ## Future Plans 
     I plan to update my portfolio as I complete projects during and after this bootcamp. I will aslo continually update/change the CSS style as I enhance my CSS skills/time allows
 
+## Link
+[Link to portfolio](https://pmorris50.github.io/my-portfolio/)
+## Screen Shot
+[screenshot](assets/images/portfolioScreenShot.jpeg)
+
 ## Application
     Portfolio page for my personal work
 
